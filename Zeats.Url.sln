@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeats.Url", "Zeats.Url\Zeats.Url.csproj", "{C81E1BF7-BF89-49ED-A97C-041B7EE66C3B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zeats.Url.UnitTest", "Zeats.Url.UnitTest\Zeats.Url.UnitTest.csproj", "{8DDADC7F-4098-42B7-8D9E-D2BAE766575D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ",devops", ",devops", "{3CD6D833-F9F6-4902-9729-E3A03DCF54EC}"
+	ProjectSection(SolutionItems) = preProject
+		azure-pipelines.yml = azure-pipelines.yml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C81E1BF7-BF89-49ED-A97C-041B7EE66C3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81E1BF7-BF89-49ED-A97C-041B7EE66C3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81E1BF7-BF89-49ED-A97C-041B7EE66C3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81E1BF7-BF89-49ED-A97C-041B7EE66C3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DDADC7F-4098-42B7-8D9E-D2BAE766575D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DDADC7F-4098-42B7-8D9E-D2BAE766575D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DDADC7F-4098-42B7-8D9E-D2BAE766575D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DDADC7F-4098-42B7-8D9E-D2BAE766575D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A89DBF8E-3AAA-4B98-A7B6-C94F00086C8F}
+	EndGlobalSection
+EndGlobal
