@@ -9,9 +9,7 @@
     <projectUrl>https://github.com/altair-sossai/zeats-url</projectUrl>
     <iconUrl>https://zeatsbalancaautomatica.blob.core.windows.net/icons/nuget.png</iconUrl>
     <dependencies>
-      <group targetFramework=".NETCoreApp3.1">
-        <dependency id="" version="" exclude="Build,Analyzers" />
-      </group>
+      <group targetFramework=".NETCoreApp3.1" />
     </dependencies>
   </metadata>
 </package>
