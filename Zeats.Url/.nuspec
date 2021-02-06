@@ -1,5 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-
+<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
   <metadata>
     <id>Zeats.Url</id>
@@ -10,7 +9,9 @@
     <projectUrl>https://github.com/altair-sossai/zeats-url</projectUrl>
     <iconUrl>https://zeatsbalancaautomatica.blob.core.windows.net/icons/nuget.png</iconUrl>
     <dependencies>
-      <group targetFramework=".NETCoreApp3.1" />
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="" version="" exclude="Build,Analyzers" />
+      </group>
     </dependencies>
   </metadata>
 </package>
