@@ -1,24 +1,25 @@
 ﻿using System;
 
-namespace Zeats.Url;
-
-public static class UrlHelper
+namespace Zeats.Url
 {
-    public static bool IsValidUrl(string url)
+    public static class UrlHelper
     {
-        return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
-               && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
-    }
+        public static bool IsValidUrl(string url)
+        {
+            return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
+                   && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+        }
 
-    public static bool IsValidHttpUrl(string url)
-    {
-        return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
-               && uriResult.Scheme == Uri.UriSchemeHttp;
-    }
+        public static bool IsValidHttpUrl(string url)
+        {
+            return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
+                   && uriResult.Scheme == Uri.UriSchemeHttp;
+        }
 
-    public static bool IsValidHttpsUrl(string url)
-    {
-        return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
-               && uriResult.Scheme == Uri.UriSchemeHttps;
+        public static bool IsValidHttpsUrl(string url)
+        {
+            return Uri.TryCreate(url, UriKind.Absolute, out var uriResult)
+                   && uriResult.Scheme == Uri.UriSchemeHttps;
+        }
     }
 }
